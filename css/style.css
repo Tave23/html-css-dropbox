@@ -103,19 +103,44 @@ nav{
 #title{
   width: 85%;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 60px;
+  padding-bottom: 30pxx;
 }
 
 .jumbotron h1{
-  font-size: 75px;
-  pad
+  font-size: 85px;
 }
+
+.main-jumbo{
+  width: 90%;
+  margin: 65px auto;
+}
+
+#text-jumbo, #img-jumbo{
+  float: left;
+}
+
+#text-jumbo{
+  width: 30%;
+}
+
+#img-jumbo{
+  width: 70%;
+}
+
+#img-jumbo img{
+ width: 100%;
+}
+
+
+
+
 /* main */
 
 .container{
   width: 75%;
-  height: 1500px;
-  margin: 0 auto;
+  height:1500px;
+  margin:0 auto;
   background-color: #F3F4F5;
 }
 
