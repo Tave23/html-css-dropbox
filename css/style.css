@@ -23,6 +23,7 @@ nav{
   width: 100vw;
   line-height: 70px;
   background-color: white;
+  position: fixed;
 }
 
 .nav-left{
@@ -45,11 +46,11 @@ nav{
 .left-menu ul li{
   float: left;
   margin-left: 25px;
-  cursor: pointer;
 }
 
 .left-menu ul li a, .right-menu ul li a{
   color: black;
+  height: 100%;
 }
 
 .nav-right{
@@ -58,8 +59,20 @@ nav{
 }
 
 .btn{
-  background-color: #083EFF;
-  padding: 1px 10px;
+  background-color: #0861FF;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 7px 15px;
+  border: solid 1px #0861FF;
+}
+
+.btn a{
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding: 5px 10px;
 }
 
 .right-menu{
@@ -73,7 +86,6 @@ nav{
 .right-menu ul li{
   float: left;
   margin-right: 25px;
-  cursor: pointer;
 }
 
 /* jumbotron */
