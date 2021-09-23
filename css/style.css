@@ -132,7 +132,18 @@ nav{
  width: 100%;
 }
 
+#text-jumbo .btn{
+  margin-top: 20px;
+}
 
+#ancora{
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+#ancora a{
+  color: black;
+}
 
 
 /* main */
@@ -140,7 +151,7 @@ nav{
 .container{
   width: 75%;
   height:1500px;
-  margin:0 auto;
+  margin:60px auto;
   background-color: #F3F4F5;
 }
 
