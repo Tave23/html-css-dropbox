@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix{
+  content: ("");
+  display: table;
+  clear: both;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* header */
+
+/* nav */
+nav{
+  height: 70px;
+  width: 100vw;
+  line-height: 70px;
+  background-color: white;
+}
+
+.nav-left{
+  padding-left: 10px;
+  float: left;
+}
+
+.nav-left a img{
+  vertical-align: middle;
+}
+
+.left-menu{
+  float: left;
+}
+
+.left-menu ul{
+  list-style: none;
+}
+
+.left-menu ul li{
+  float: left;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.left-menu ul li a, .right-menu ul li a{
+  color: black;
+}
+
+.nav-right{
+  float: right;
+  margin-right: 15px;
+}
+
+.btn{
+  background-color: #083EFF;
+  padding: 1px 10px;
+}
+
+.right-menu{
+  float: right;
+}
+
+.right-menu ul{
+  list-style: none;
+}
+
+.right-menu ul li{
+  float: left;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+/* jumbotron */
+
+.jumbotron{
+  width: 100vw;
+  height: 800px;
+  background-color: #B4D0E7;
+}
+
+/* main */
+
+.container{
+  width: 75%;
+  height: 1500px;
+  margin: 0 auto;
+  background-color: #F3F4F5;
+}
+
+.partners{
+  width: 100vw;
+  height: 400px;
+  background-color: #2DA44E;
+}
+
+.free-trial{
+  width: 100vw;
+  height: 400px;
+  background-color: tomato;
+}
+
+.faq{
+  height: 700px;
+}
+
+/* footer */
+
+footer{
+  width: 100vw;
+  height: 400px;
+  background-color: black;
+}
