@@ -213,14 +213,14 @@ nav{
   margin-top: 25px;
 }
 
-#mensilità{
+.mensilità{
   color: grey;
   font-size: 13px;
   padding-bottom: 20px;
 }
 
 .main-aside ul{
-  padding: 0 20px 0 25px;
+  padding: 0 20px 0 0;
 }
 
 .main-aside li{
@@ -228,16 +228,16 @@ nav{
   list-style: none;
 }
 
-#buy-now{
+.buy-now{
   margin-top: 20px;
 }
 
-#buy-now a{
+.buy-now a{
   text-decoration: underline;
   color: #317cff;
 }
 
-#middle-line{
+.middle-line{
   height: 1px;
   width: 30%;
   border-bottom:solid 1px #c5c5c5;
@@ -259,8 +259,12 @@ nav{
   margin-top: 40px;
 }
 
-#entreprise, #bottom-plan .clearfix button{
+#entreprise{
   float: left;
+}
+
+#bottom-plan .clearfix button{
+  float: right;
 }
 
 #bottom-plan .clearfix{
