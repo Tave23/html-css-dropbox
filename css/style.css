@@ -28,6 +28,10 @@ nav{
   left: 0;
 }
 
+.nav a{
+  color: black;
+  display: inline-block;
+}
 
 .nav-left{
   padding-left: 10px;
@@ -51,11 +55,6 @@ nav{
   margin-left: 25px;
 }
 
-.left-menu ul li a, .right-menu ul li a{
-  color: black;
-  height: 100%;
-}
-
 .nav-right{
   float: right;
   margin-right: 15px;
@@ -67,15 +66,18 @@ nav{
   text-align: center;
   text-decoration: none;
   color: #fff;
-  padding: 7px 15px;
+  padding: 5px 15px;
   border: solid 1px #0861FF;
 }
 
 .btn a{
   color: white;
-  height: 100%;
-  width: 100%;
-  padding: 5px 10px;
+  display: inline-block;
+}
+
+.btn:hover{
+  background-color: #317cff;
+  border: solid 1px #317cff
 }
 
 .right-menu{
@@ -95,7 +97,7 @@ nav{
 
 .jumbotron{
   width: 100vw;
-  height: 800px;
+  max-height: 800px;
   background-color: #B4D0E7;
   margin-top: 70px;
 }
@@ -112,7 +114,7 @@ nav{
 }
 
 .main-jumbo{
-  width: 90%;
+  width: 85%;
   margin: 65px auto;
 }
 
@@ -145,15 +147,130 @@ nav{
   color: black;
 }
 
-
 /* main */
+
+/* intro container */
 
 .container{
   width: 75%;
   height:1500px;
-  margin:60px auto;
+  margin:100px auto;
   background-color: #F3F4F5;
 }
+
+.container h2{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+#fattura-annuale{
+  margin-left: 10px;
+}
+
+.intro-container{
+  margin-bottom: 20px;
+}
+/* /intro container */
+
+/* piani d'acquisto */
+
+.plan aside{
+  float: left;
+  width: 30%;
+  min-height: 1100px;
+  border: 1px solid #DEDFE1;
+}
+
+#professional-plan, #standard-plan{
+  margin-right: 5%;
+}
+
+.top-aside{
+  text-align: center;
+  width: 100%;
+  border-bottom:1px solid #DEDFE1;
+  padding: 7px 0;
+}
+
+.top-aside span{
+  margin-left: 3px;
+}
+
+.main-aside{
+  padding: 20px 20px;
+}
+
+.main-aside h3{
+  font-size: 30px;
+}
+
+.main-aside h5{
+  padding: 10px 0;
+}
+
+.main-aside button{
+  padding: 5px 65px;
+  margin-top: 25px;
+}
+
+#mensilità{
+  color: grey;
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+
+.main-aside ul{
+  padding: 0 20px 0 25px;
+}
+
+.main-aside li{
+  padding-bottom: 10px;
+  list-style: none;
+}
+
+#buy-now{
+  margin-top: 20px;
+}
+
+#buy-now a{
+  text-decoration: underline;
+  color: #317cff;
+}
+
+#middle-line{
+  height: 1px;
+  width: 30%;
+  border-bottom:solid 1px #c5c5c5;
+  margin: 20px 0;
+}
+
+.main-aside h4{
+  margin-bottom: 20px;
+}
+
+.fa-check{
+  color: #0861FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .partners{
   width: 100vw;
