@@ -63,6 +63,7 @@ nav{
 .btn{
   background-color: #0861FF;
   outline: none;
+  font-size: 12px;
   text-align: center;
   text-decoration: none;
   color: #fff;
@@ -153,7 +154,6 @@ nav{
 
 .container{
   width: 75%;
-  height:1500px;
   margin:100px auto;
   background-color: #F3F4F5;
 }
@@ -252,6 +252,20 @@ nav{
   color: #0861FF;
 }
 
+#bottom-plan{
+  width: 100%;
+  height: 300px;
+  border:solid 1px #DEDFE1;
+  margin-top: 40px;
+}
+
+#entreprise, #bottom-plan .clearfix button{
+  float: left;
+}
+
+#bottom-plan .clearfix{
+  padding: 20px 20px;
+}
 
 
 
