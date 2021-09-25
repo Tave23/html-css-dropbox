@@ -177,7 +177,7 @@ nav{
 .plan aside{
   float: left;
   width: 30%;
-  min-height: 1100px;
+  min-height: 900px;
   border: 1px solid #DEDFE1;
 }
 
@@ -254,13 +254,13 @@ nav{
 
 #bottom-plan{
   width: 100%;
-  height: 300px;
   border:solid 1px #DEDFE1;
   margin-top: 40px;
 }
 
 #entreprise{
   float: left;
+  font-size: 30px;
 }
 
 #bottom-plan .clearfix button{
@@ -269,6 +269,40 @@ nav{
 
 #bottom-plan .clearfix{
   padding: 20px 20px;
+}
+
+.text-bottom-plan{
+  padding: 10px 0 25px 20px;
+}
+
+.text-bottom-plan h4{
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+/* /piani d'acquisto */
+
+/* trova un partner */
+
+.find-partner{
+  border: 1px solid black;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 100%;
+}
+
+.find-partner img{
+  width: 50%;
+  float: left;
+}
+
+.text-find-partner{
+  float: left;
+  padding: 25px 10px;
+}
+
+.text-find-partner h3{
+  font-size: 25px;
 }
 
 
