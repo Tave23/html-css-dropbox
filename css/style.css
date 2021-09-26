@@ -167,7 +167,7 @@ nav{
 
 .container{
   width: 75%;
-  margin:100px auto;
+  margin:100px auto 50px;
 }
 
 .container h2{
@@ -348,42 +348,49 @@ nav{
   margin-bottom: 15px;
 }
 
+/* /dropbox business */
 
+/* intro sponsor */
 
+#info-clients{
+  text-decoration:underline;
+  color: #317cff;
+}
 
+/* /intro sponsor */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.partners{
+.sponsor{
   width: 100vw;
   height: 400px;
-  background-color: #2DA44E;
+  background-color: blue;
 }
+
+.side-sponsor{
+  width: 30%;
+  height: 400px;
+  float: left;
+  background-color: cadetblue;
+}
+
+.selected-sponsor{
+  background-color:cornflowerblue;
+  float: left;
+  width: 40%;
+  height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .free-trial{
   width: 100vw;
