@@ -168,7 +168,6 @@ nav{
 .container{
   width: 75%;
   margin:100px auto;
-  background-color: #F3F4F5;
 }
 
 .container h2{
@@ -326,6 +325,37 @@ nav{
 .text-find-partner button a{
   color: black;
 }
+
+.strumento{
+  float: left;
+  width: 30%;
+}
+
+.centrale{
+  margin: 0 5% 0;
+}
+
+.row{
+  margin-bottom: 100px;
+}
+
+.strumento img{
+  width: 100%;
+}
+
+.strumento h4{
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
