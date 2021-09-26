@@ -66,9 +66,18 @@ nav{
   font-size: 12px;
   text-align: center;
   text-decoration: none;
-  color: #fff;
   padding: 5px 15px;
   border: solid 1px #0861FF;
+}
+
+.btn-white{
+  background-color: white;
+  outline: none;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 15px;
+  border: solid 1px black;
 }
 
 .btn a{
@@ -79,6 +88,10 @@ nav{
 .btn:hover{
   background-color: #317cff;
   border: solid 1px #317cff
+}
+
+.btn-white:hover{
+  background-color: lightgrey;
 }
 
 .right-menu{
@@ -285,7 +298,6 @@ nav{
 /* trova un partner */
 
 .find-partner{
-  border: 1px solid black;
   margin-top: 80px;
   margin-bottom: 80px;
   width: 100%;
@@ -297,13 +309,26 @@ nav{
 }
 
 .text-find-partner{
+  width: 50%;
   float: left;
-  padding: 25px 10px;
+  padding: 25px 15px;
 }
 
 .text-find-partner h3{
-  font-size: 25px;
+  font-size: 30px;
 }
+
+.text-find-partner p{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.text-find-partner button a{
+  color: black;
+}
+
+
+
 
 
 
