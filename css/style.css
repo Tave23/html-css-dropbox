@@ -24,6 +24,7 @@ nav{
   line-height: 70px;
   background-color: white;
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
 }
@@ -82,12 +83,15 @@ nav{
 
 .btn a{
   color: white;
-  display: inline-block;
 }
 
 .btn:hover{
   background-color: #317cff;
   border: solid 1px #317cff
+}
+
+.btn-white a{
+  color: black;
 }
 
 .btn-white:hover{
@@ -359,48 +363,155 @@ nav{
 
 /* /intro sponsor */
 
+/* main sponsor */
 .sponsor{
   width: 100vw;
   height: 400px;
-  background-color: blue;
 }
 
 .side-sponsor{
-  width: 30%;
-  height: 400px;
+  max-width: 30%;
+  max-height: 400px;
   float: left;
   background-color: cadetblue;
 }
 
-.selected-sponsor{
-  background-color:cornflowerblue;
+.quarter{
+  width: 50%;
+  height: 200px;
   float: left;
-  width: 40%;
-  height: 400px;
+}
+
+.quarter img{
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  filter: invert(100%);
+  object-fit: contain;
+}
+
+.quarter:hover{
+  border: 10px solid rgba(255, 255, 255, .5);
+}
+
+.one{
+  background-color: #A2D39B;
+}
+
+.two{
+  background-color: #61082C;
+}
+
+.three{
+  background-color: #1D93CE;
+}
+
+.four{
+  background-color: #F91C1D;
+}
+
+.five{
+  background-color: #D5021F;
+}
+
+.six{
+  background-color: #B4D0E7;
+}
+
+.seven{
+  background-color: #0D2481;
+}
+
+.eight{
+  background-color: #FED830;
+}
+
+#designated-sponsor img{
+  width: 30%;
 }
 
 
+.selected-sponsor{
+  background-color: #F5F5F5;
+  float: left;
+  width: 40%;
+  height: 400px;
+  overflow: scroll;
+  padding: 40px 50px 0;
+}
 
+#cit{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
+/* / main sponsor */
 
-
-
-
-
-
-
-
-
+/* free trial */
 
 .free-trial{
   width: 100vw;
   height: 400px;
-  background-color: tomato;
+  background-color: #B4D0E7;
 }
 
-.faq{
-  height: 700px;
+.free-trial .container{
+  margin-top: -100px;
 }
+
+.free-trial .container .btn-white a{
+  padding: 5px 25px;
+}
+
+.free-trial .container .btn-white:hover{
+  border: 1px solid black;
+}
+
+.free-trial .container h2{
+  float: left;
+  margin-top: 100px;
+}
+
+.free-trial .container .btn-white{
+  float: right;
+  margin: 100px 50px 0 0;
+
+}
+
+.free-trial .container h2{
+  width: 50%;
+  color: #61082C;
+}
+
+/* /free trial */
+
+/* faq */
+
+
+.faq{
+  margin-bottom: 100px;
+}
+
+.question{
+  font-size: 15px;
+  padding: 30px 0;
+  border-top: 1px solid #c5c5c5;
+}
+
+.question:last-of-type{
+  border-bottom: 1px solid #c5c5c5;
+}
+  
+.question h4{
+  float: left;
+}
+
+.question i{
+  float: right;
+}
+
+
+/* /faq */
 
 /* footer */
 
