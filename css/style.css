@@ -21,6 +21,7 @@ a{
 nav{
   height: 70px;
   width: 100vw;
+  min-width: 1000px;
   line-height: 70px;
   background-color: white;
   position: fixed;
@@ -67,7 +68,6 @@ nav{
   font-size: 12px;
   text-align: center;
   text-decoration: none;
-  padding: 5px 15px;
   border: solid 1px #0861FF;
 }
 
@@ -83,6 +83,7 @@ nav{
 
 .btn a{
   color: white;
+  padding: 5px 15px;
 }
 
 .btn:hover{
@@ -92,6 +93,7 @@ nav{
 
 .btn-white a{
   color: black;
+  padding: 5px 20px;
 }
 
 .btn-white:hover{
@@ -110,6 +112,37 @@ nav{
   float: left;
   margin-right: 25px;
 }
+
+.left-menu ul li:hover, .right-menu ul li:hover{
+  border-bottom: 3px solid black;
+}
+
+.right-menu ul li, .left-menu ul li{
+  margin-top: -3px;
+}
+
+/* #supporto li:hover .dropdown{
+  visibility: visible;
+  opacity: 1;
+}
+
+.dropdown{
+  opacity: 0;
+	visibility: hidden;
+	list-style: none;
+  padding: 0 30px;
+	position: absolute;
+	top: 70px;
+	left: 715px;
+	z-index:9999;
+	background: white;
+}
+
+.dropdown li:hover{
+  border: none;
+  background-color: #cccccc;
+} */
+
 
 /* jumbotron */
 
@@ -366,19 +399,17 @@ nav{
 /* main sponsor */
 .sponsor{
   width: 100vw;
-  height: 400px;
 }
 
 .side-sponsor{
-  max-width: 30vw;
+  width: 30vw;
   max-height: 400px;
   float: left;
-  background-color: cadetblue;
 }
 
 .quarter{
   width: 15vw;
-  height: 200px;
+  height: 15vw;
   float: left;
 }
 
@@ -434,8 +465,8 @@ nav{
 .selected-sponsor{
   background-color: #F5F5F5;
   float: left;
-  width: 40%;
-  height: 400px;
+  width: 40vw;
+  height: 30vw;
   overflow: auto;
   padding: 40px 50px 0;
 }
@@ -451,16 +482,15 @@ nav{
 
 .free-trial{
   width: 100vw;
-  height: 400px;
   background-color: #B4D0E7;
 }
 
 .free-trial .container{
-  margin-top: -100px;
+  margin-top: -150px;
 }
 
 .free-trial .container .btn-white a{
-  padding: 5px 25px;
+  padding: 5px 30px;
 }
 
 .free-trial .container .btn-white:hover{
@@ -469,7 +499,8 @@ nav{
 
 .free-trial .container h2{
   float: left;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .free-trial .container .btn-white{
@@ -567,6 +598,5 @@ footer ul li{
   color: #9D9D9D;
   font-size: 12px;
 }
-
 
 
