@@ -370,14 +370,14 @@ nav{
 }
 
 .side-sponsor{
-  max-width: 30%;
+  max-width: 30vw;
   max-height: 400px;
   float: left;
   background-color: cadetblue;
 }
 
 .quarter{
-  width: 50%;
+  width: 15vw;
   height: 200px;
   float: left;
 }
