@@ -133,12 +133,11 @@ nav{
   padding: 0 30px;
 	position: absolute;
 	top: 70px;
-	left: 950px;
 	z-index:9999;
 	background: white;
 }
 
-.dropdown a:hover{
+.dropdown:hover li a{
   border: none;
   background-color: #cccccc;
 } 
@@ -262,7 +261,7 @@ nav{
   margin-top: 25px;
 }
 
-.mensilità{
+.mensilita{
   color: grey;
   font-size: 13px;
   padding-bottom: 20px;
@@ -425,35 +424,35 @@ nav{
   border: 10px solid rgba(255, 255, 255, .5);
 }
 
-.one{
+.bg-green{
   background-color: #A2D39B;
 }
 
-.two{
+.bg-purple{
   background-color: #61082C;
 }
 
-.three{
+.bg-blue{
   background-color: #1D93CE;
 }
 
-.four{
+.bg-red{
   background-color: #F91C1D;
 }
 
-.five{
+.bg-darkred{
   background-color: #D5021F;
 }
 
-.six{
+.bg-lightblue{
   background-color: #B4D0E7;
 }
 
-.seven{
+.bg-darkblue{
   background-color: #0D2481;
 }
 
-.eight{
+.bg-yellow{
   background-color: #FED830;
 }
 
