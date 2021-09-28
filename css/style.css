@@ -542,6 +542,14 @@ nav{
   font-size: 25px;
 }
 
+.question .answer{
+  display: none;
+}
+
+.question:hover .answer{
+  display: block;
+  margin-top: 50px;
+}
 
 /* /faq */
 
